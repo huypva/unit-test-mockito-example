@@ -1,18 +1,18 @@
-package io.codebyexample.unittestmockito.core.entity;
+package io.codebyexample.unittestmockito.bean;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
+import lombok.ToString;
 
 /**
  * @author huypva
  */
-@Setter
+@ToString
 @Getter
 @AllArgsConstructor
-public class Greeting {
+public class Entity  {
 
   private int id;
   private String message;
-
 }
